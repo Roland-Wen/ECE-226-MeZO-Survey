@@ -3,8 +3,9 @@
 Q0. Given a memory/accuracy contraint and the type of task I'm working with, what's the method/model that can achieve the best accuracy/memory? (mostly PEFT)
 
 
-Q1. What are the pros and cons of each category of methods? For example, hybrid gives the best accuracy when fine-tuning small models in language comprehension tasks.	
+Q1. What are the pros and cons of each category of methods? For example, hybrid gives the best accuracy when fine-tuning small models in language comprehension tasks.
 
+    Are some methods consistently better for small models versus large models?
 
 Q2. Does model size matter?
 
@@ -22,5 +23,4 @@ How to interpolate [method A (with category A')
     
 	Q1: Fix A' B' C' (cuz we're asking for a specific model size and task type)
 
-    
-	Q2: 
+    Maybe always fix A', B', C'???
