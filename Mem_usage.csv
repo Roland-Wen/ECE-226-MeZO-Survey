@@ -1,0 +1,30 @@
+Method,Model,RTE,SST-2,WiC,SQuAD,MultiRC,CB,COPA,ReCoRD,WSC
+ZERO-SHOT,OPT-13B,24.39,,,,,,,,
+MeZO,OPT-13B,26.43,,,,,,,,
+SubZO,OPT-13B,26.97,,,,,,,,
+TeZO,OPT-13B,25.52,,,,,,,,
+MeZO-M ,OPT-13B,51.32,,,,,,,,
+TEZO-M ,OPT-13B,25.52,,,,,,,,
+MeZO-ADAM,OPT-13B,75.27,,,,,,,,
+TEZO-ADAM,OPT-13B,26.01,,,,,,,,
+MeZO(LoRA),OPT-13B,,26.1,26.6,37.4,,,,,
+SubZero(FT),OPT-13B,,26.5,27.1,37.8,,,,,
+SubZero(LoRA),OPT-13B,,26.1,26.6,37.4,,,,,
+LoHO-Adam-inter (FO layers =2),OPT-13B,,,,,78.9,,,,
+ZERO-SHOT,LLaMA-7b,12.92,,,,,,,,
+MeZO,LLaMA-7b,13.91,,,,,,,,
+SubZO,LLaMA-7b,14.28,,,,,,,,
+TeZO,LLaMA-7b,13.47,,,,,,,,
+MeZO-M ,LLaMA-7b,26.85,,,,,,,,
+TEZO-M ,LLaMA-7b,13.48,,,,,,,,
+MeZO-ADAM,LLaMA-7b,39.5,,,,,,,,
+TEZO-ADAM,LLaMA-7b,13.71,,,,,,,,
+MeZO(LoRA),LLaMA-7b,,26.1,26.6,37.4,,,,,
+SubZero(FT),LLaMA-7b,,26.5,27.1,37.8,,,,,
+SubZero(LoRA),LLaMA-7b,,26.1,26.6,37.4,,,,,
+LoHO-Adam-inter (FO layers =2),OPT-13B,,,,,78.9,,,,
+Sparse MeZO,LLaMA-7b,,14.6,14.6,14.6,,14.6,,,14.6
+0.1% MeZO,LLaMA2-7b,8,8,8,8,8,8,8,8,8
+AdaZeta,LLaMA2-7b,,14.73,14.73,41.17,,,23.01,,15.22
+MeZO-LoRA,LLaMA2-7b,,14.75,14.75,41.18,,,23.02,,15.23
+MeZO,LLaMA-7b,10,14.6,14.6,14.6,8.13,14.6,,8.12,14.6
